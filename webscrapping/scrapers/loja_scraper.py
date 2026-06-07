@@ -11,7 +11,12 @@ class LojaScraper(ABC):
         nome = self.coletar_nome()
         preco = self.coletar_preco()
 
-        return f"{nome} -> {preco}"
+        return {
+            "produto_buscado": produto,
+            "nome": nome,
+            "preco": preco,
+            "loja": self.nome_loja,
+        }
 
     @abstractmethod
     def abrir_site(self):

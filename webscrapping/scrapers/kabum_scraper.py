@@ -6,6 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class KabumScraper(LojaScraper):
 
+    nome_loja = "Kabum"
+
     def __init__(self, navegador):
         self.navegador = navegador
         self.url = "https://www.kabum.com.br/"

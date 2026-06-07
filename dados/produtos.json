@@ -1,0 +1,52 @@
+[
+  {
+    "produto_buscado": "Dell - KM3322W, Teclado e Mouse sem fio, Preto",
+    "nome": "Combo Teclado e Mouse Sem Fio Dell KM3322W, Preto",
+    "preco_original": "R$ 129,99",
+    "preco_numerico": 129.99,
+    "preco_formatado": "R$ 129,99",
+    "preco_disponivel": true,
+    "loja": "Kabum",
+    "data_coleta": "2026-06-07T10:00:00"
+  },
+  {
+    "produto_buscado": "Havit Fone de Ouvido Headset Gamer Fuxi-H3",
+    "nome": "Headset Gamer Havit Fuxi-H3, Drivers 50mm, RGB, Preto",
+    "preco_original": "R$ 149,99",
+    "preco_numerico": 149.99,
+    "preco_formatado": "R$ 149,99",
+    "preco_disponivel": true,
+    "loja": "Kabum",
+    "data_coleta": "2026-06-07T10:00:00"
+  },
+  {
+    "produto_buscado": "Havit Headphone Fone de Ouvido H2002d",
+    "nome": "Havit Headphone Gamer H2002d, Drivers 53mm, Microfone Removível, Preto",
+    "preco_original": "R$ 189,99",
+    "preco_numerico": 189.99,
+    "preco_formatado": "R$ 189,99",
+    "preco_disponivel": true,
+    "loja": "Kabum",
+    "data_coleta": "2026-06-07T10:00:00"
+  },
+  {
+    "produto_buscado": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido",
+    "nome": "Mouse Sem Fio Recarregável RGB Bluetooth",
+    "preco_original": "Preço não encontrado",
+    "preco_numerico": null,
+    "preco_formatado": "Preço não encontrado",
+    "preco_disponivel": false,
+    "loja": "Kabum",
+    "data_coleta": "2026-06-07T10:00:00"
+  },
+  {
+    "produto_buscado": "Mouse sem fio Logitech M170",
+    "nome": "Mouse Sem Fio Logitech M170 Preto",
+    "preco_original": "R$ 59,90",
+    "preco_numerico": 59.9,
+    "preco_formatado": "R$ 59,90",
+    "preco_disponivel": true,
+    "loja": "Kabum",
+    "data_coleta": "2026-06-07T10:00:00"
+  }
+]
