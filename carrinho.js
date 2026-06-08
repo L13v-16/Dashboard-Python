@@ -1,0 +1,1 @@
+console.log("Carrinho de compras carregado!");
