@@ -1,16 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1e47cd;
+    background-color: #BFC5CA;
     transition: 0.5s;
     margin: 0;
 }
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #FFFFFF;
 }
 
 .login-box {
-    background: #ffffff72;
+    background: #B5BBC0;
     box-shadow: 0 8px 32px 0 rgba(70, 30, 135, 0.37);
     backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);

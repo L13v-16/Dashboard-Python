@@ -8,21 +8,15 @@
         <script src="login.js"></script>
     </head>
       <body>
-         <div class="theme">
-        <label class="switch">
-            <input type="checkbox" onclick="switchTheme()">
-            <span class="slider"></span>
-        </label>
-    </div>
-    <div class="login-box">
+        <div class="login-box">
         <h1>Entrar</h1>
         <form>
-            <input type="text" placeholder="E-mail" id="E-mail-imput">
-            <input type="password" placeholder="Senha" id="Senha-input">
+            <input type="text" placeholder="E-mail" id="E-mail-imput" required>
+            <input type="password" placeholder="Senha" id="Senha-input" required>
           <button type="button" id="login-button" onclick="window.location.href='index.html'">
     Entrar
 </button>
         </form>
-    </div>
+        </div>
      </body>
 </html>
