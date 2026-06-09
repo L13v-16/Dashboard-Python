@@ -224,3 +224,9 @@ __pycache__/
 *.pyc
 
 venv/
+
+.idea/
+.venv/
+venv/
+__pycache__/
+*.pyc
