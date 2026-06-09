@@ -9,7 +9,7 @@ from scrapers.kabum_scraper import KabumScraper
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "tratamentodedados"))
-from main_pandas import processar_nova_coleta
+from tratamentodedados.main_pandas import processar_nova_coleta
 
 PRODUTOS = [
     "Havit Headphone Fone de Ouvido H2002d",
