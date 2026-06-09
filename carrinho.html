@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Carrinho de Compras</title>
         <link rel="stylesheet" href="css/globais.css" />
-        <script async src="carrinho.js"></script>
     </head>
     <body>
          <div class="navbar ">
@@ -13,11 +12,11 @@
             <h1 class="logo">WEB<span>SCRAPING</span></h1>
             <nav>
                 <ul>
-                    <li>Home</li>
+                    <a href="index.html"><li>Home</li></a>
                     <li>Produtos</li>
                     <li>Sobre</li>
                     <li>Contato</li>
-                    <li>Conta</li>
+                    <a href="login.html"><li>Conta</li></a>
                 </ul>
             </nav>
             <div class="search-box">
@@ -30,7 +29,7 @@
                 <a href="carrinho.html">
                     <div class="carrinho">
                         <div id="quantidadeCarrinho" class="quantidadeCarrinho">
-
+                            0
                         </div>
                         <img src="css/images/cart.png" alt="Carrinho de compras" />
                     </div>
@@ -38,5 +37,149 @@
                 <img src="css/images/menu.png" class="menu-button" alt="Menu" />
             </div>
         </div>
+    </div>
+    <div id="etiqueta" class="texto-centralizado">
+        <!--<h2>Carrinho vazio</h2>
+        <a href="index.html">
+            <button class="botao-loja">Voltar para a loja</button>
+        </a>
+    </div>
+
+     <div id="etiqueta" class="texto-centralizado">
+        <h2>Total: R$100.00</h2>
+        <a href="index.html">
+            <button class="Checkout">Finalizar compra</button>
+            <button class="RemoverItem">Limpar Carrinho</button>
+        </a>-->
+    </div>
+    <div class="carrinho-compras" id="carrinho-compras">
+        <!--<div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="css/images/products/product-6.png" alt="Produto 1">
+            <div class="detalhes">
+                <div class="titulo-preco-x">
+                    <h4 class="titulo-preco">
+                        <p>Nome do Produto</p>
+                        <p class="preco-item-carrinho"> R$100.00</p>
+                    </h4>
+                </div>
+                <div class="botoes-carrinho">
+                    <div class="botoes">
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        <div class="quantidade"> 1 </div>
+                        <button class="remove-from-cart">Remover do Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <script src="Dados.js"></script>
+        <script src="carrinho.js"></script>
     </div>
     </body>
